@@ -188,3 +188,60 @@ Home work 13
     }
   }
 }
+
+
+
+
+
+
+{
+  "metadata": {
+    "schemaVersion": "1.0",
+    "importType": "LEX",
+    "importFormat": "JSON"
+  },
+  "resource": {
+    "description": "The available risk levels for investment",
+    "name": "RiskLevel",
+    "version": "1",
+    "enumerationValues": [
+      {
+        "value": "High",
+        "synonyms": [
+          "high"
+        ]
+      },
+      {
+        "value": "Very Low",
+        "synonyms": [
+          "very low"
+        ]
+      },
+      {
+        "value": "Low",
+        "synonyms": [
+          "low"
+        ]
+      },
+      {
+        "value": "Medium",
+        "synonyms": [
+          "medium"
+        ]
+      },
+      {
+        "value": "Very High",
+        "synonyms": [
+          "very high"
+        ]
+      },
+      {
+        "value": "None",
+        "synonyms": [
+          "none"
+        ]
+      }
+    ],
+    "valueSelectionStrategy": "TOP_RESOLUTION"
+  }
+}
